@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,16 +15,11 @@
     <link href="../bootstrap-3.3.4-dist/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-<script type="text/javascript">
-	$(document).ready(function(){
-		$("#myModal").modal('show');
-	});
-</script>
 
 </head>
 
 <body id="page-top">
- 
+
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
@@ -43,13 +39,13 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li class="hidden">
                         <a href="#page-top"></a>
-                    
-                    <li class="page-scroll">
-                        <form class="navbar-form navbar-right">
-            <p class="ar">Usuario, user </p>
-            <a href="#">Salir</a>
-            </form>
-                    </li>
+
+                        <li class="page-scroll">
+                            <form class="navbar-form navbar-right">
+                                <p class="ar">Usuario, user </p>
+                                <a href="#">Salir</a>
+                            </form>
+                        </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -68,7 +64,7 @@
             </div>
             <div class="row">
                 <div class="col-sm-4 portfolio-item">
-                    <a href="#ModalPerfil" class="portfolio-link" data-toggle="modal" data-target="#ModalPerfil">
+                    <a href="#ModalPerfil" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
@@ -78,7 +74,7 @@
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                    <a href="#ModalLeccion" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
@@ -88,7 +84,7 @@
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                    <a href="#ModalAvances" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
@@ -97,7 +93,7 @@
                         <img src="../images/avances.png" class="img-responsive" alt="">
                     </a>
                 </div>
-               
+
             </div>
         </div>
     </section>
@@ -107,35 +103,28 @@
             <div class="container">
                 <div class="row">
                     <div class="footer-col col-md-4">
-                        <h3>Location</h3>
-                        <p>3481 Melrose Place<br>Beverly Hills, CA 90210</p>
+                        <h3>Desarrolladores</h3>
+                        <p>Ing. Aranza Laguna</p>
+                        <p>Ing. Ivan Flores </p>
+                        <p>Ing. Manuel Islas</p>
                     </div>
-                    <a data-toggle="modal" href="#myModal"> HOLA</a>
-    <div class="modal hide" id="myModal">
-  <div class="modal-header">
-    <button type="button" class="close" data-dismiss="modal">×</button>
-    <h3>Modal header</h3>
-  </div>
-  <div class="modal-body">
-    <p>One fine body…</p>
-  </div>
-  <div class="modal-footer">
-    <a href="#" class="btn" data-dismiss="modal">Close</a>
-    <a href="#" class="btn btn-primary">Save changes</a>
-  </div>
-</div>
                     <div class="footer-col col-md-4">
-                        <h3>About Freelancer</h3>
-                        <p>Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
+                        <h3>Siguenos en las redes sociales</h3>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="https://www.facebook.com/Popcloc/" class="btn-social btn-outline facebook"><i class="facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.twitter.com/PopCloc" class="btn-social btn-outline twitter"><i class="twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/pop.cloc/" class="btn-social btn-outline instagram"><i class="instagram"></i></a>
+                            </li>
+                        </ul>
                     </div>
-                </div>
-            </div>
-        </div>
-        <div class="footer-below">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        Copyright &copy; Your Website 2014
+                    <div class="footer-col col-md-4">
+                        <h3>Descarga nuestra app</h3>
+                        <p>No olvides descargar nuestra aplicación movil para tu Android gratis en la <a href="https://play.google.com/store?hl=es_419">Play Store</a>.</p>
                     </div>
                 </div>
             </div>
@@ -155,24 +144,28 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Project Title</h2>
+                            <h2>Perfil de usuario</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/cabin.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
-                                    </strong>
-                                </li>
-                            </ul>
+                            <!--  <img src="img/portfolio/cabin.png" class="img-responsive img-centered" alt="">-->
+                            <div class="form-group">
+                                <label class="col-lg-2 control-label">Nombre de usuario</label>
+                                <div class="col-lg-10">
+                                    <label class="col-lg-2 control-label"> User </label>
+                                </div>
+                                <label class="col-lg-2 control-label">Correo electronico</label>
+                                <div class="col-lg-10">
+                                    <label class="col-lg-2 control-label">user@gmail.com </label>
+                                </div>
+                                <label class="col-lg-2 control-label">Contraseña</label>
+                                <div class="col-lg-10">
+                                    <a href="#"> Cambiar contraseña </a>
+                                </div>
+                                <br>
+                                <div class="col-lg-10 col-lg-offset-2">
+                                    <button type="submit" class="btn btn-warning">GUARDAR</form:button>
+                                </div>
+                            </div>
+
                             <button type="button" class="btn btn-default" data-dismiss="modal" aria-label="Close"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
@@ -180,7 +173,7 @@
             </div>
         </div>
     </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="ModalLeccion" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -194,22 +187,89 @@
                         <div class="modal-body">
                             <h2>Project Title</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/cake.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
-                                    </strong>
-                                </li>
-                            </ul>
+                            <div class="tabbable tabs-left">
+                                <ul class="nav nav-tabs">
+                                    <li class="active"><a href="#lA" data-toggle="tab">Section 1</a></li>
+                                    <li><a href="#lB" data-toggle="tab">Section 2</a></li>
+                                    <li><a href="#lC" data-toggle="tab">Section 3</a></li>
+                                </ul>
+                                <div class="tab-content">
+                                    <div class="tab-pane active" id="lA">
+                                        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                                            <div class="panel panel-default">
+                                                <div class="panel-heading" role="tab" id="headingOne">
+                                                    <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Collapsible Group Item #1
+        </a>
+      </h4>
+                                                </div>
+                                                <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                                                    <div class="panel-body">
+                                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute,
+                                                        non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt
+                                                        laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
+                                                        on it squid single-origin coffee nulla assumenda shoreditch et. Nihil
+                                                        anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+                                                        sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings
+                                                        occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt
+                                                        you probably haven't heard of them accusamus labore sustainable VHS.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="panel panel-default">
+                                                <div class="panel-heading" role="tab" id="headingTwo">
+                                                    <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Collapsible Group Item #2
+        </a>
+      </h4>
+                                                </div>
+                                                <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                                    <div class="panel-body">
+                                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute,
+                                                        non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt
+                                                        laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
+                                                        on it squid single-origin coffee nulla assumenda shoreditch et. Nihil
+                                                        anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+                                                        sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings
+                                                        occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt
+                                                        you probably haven't heard of them accusamus labore sustainable VHS.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="panel panel-default">
+                                                <div class="panel-heading" role="tab" id="headingThree">
+                                                    <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Collapsible Group Item #3
+        </a>
+      </h4>
+                                                </div>
+                                                <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                                                    <div class="panel-body">
+                                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute,
+                                                        non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt
+                                                        laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
+                                                        on it squid single-origin coffee nulla assumenda shoreditch et. Nihil
+                                                        anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+                                                        sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings
+                                                        occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt
+                                                        you probably haven't heard of them accusamus labore sustainable VHS.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane" id="lB">
+                                        <p>Howdy, I'm in Section B.</p>
+                                    </div>
+                                    <div class="tab-pane" id="lC">
+                                        <p>What up girl, this is Section C.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /tabbable -->
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
@@ -217,7 +277,7 @@
             </div>
         </div>
     </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="ModalAvances" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -232,7 +292,10 @@
                             <h2>Project Title</h2>
                             <hr class="star-primary">
                             <img src="img/portfolio/circus.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set
+                                by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download
+                                their free set with 16 icons, or you can purchase the entire set with 146 icons for only
+                                $12!</p>
                             <ul class="list-inline item-details">
                                 <li>Client:
                                     <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
@@ -269,7 +332,10 @@
                             <h2>Project Title</h2>
                             <hr class="star-primary">
                             <img src="img/portfolio/game.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set
+                                by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download
+                                their free set with 16 icons, or you can purchase the entire set with 146 icons for only
+                                $12!</p>
                             <ul class="list-inline item-details">
                                 <li>Client:
                                     <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
@@ -306,7 +372,10 @@
                             <h2>Project Title</h2>
                             <hr class="star-primary">
                             <img src="img/portfolio/safe.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set
+                                by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download
+                                their free set with 16 icons, or you can purchase the entire set with 146 icons for only
+                                $12!</p>
                             <ul class="list-inline item-details">
                                 <li>Client:
                                     <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
@@ -343,7 +412,10 @@
                             <h2>Project Title</h2>
                             <hr class="star-primary">
                             <img src="img/portfolio/submarine.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set
+                                by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download
+                                their free set with 16 icons, or you can purchase the entire set with 146 icons for only
+                                $12!</p>
                             <ul class="list-inline item-details">
                                 <li>Client:
                                     <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
@@ -365,15 +437,15 @@
             </div>
         </div>
     </div>
-<!-- jQuery -->
-<script src="bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
-<!--<script src="../bootstrap-3.3.6-dist/js/modal.js"></script>-->
-    <!-- Bootstrap Core JavaScript -->
-   <!-- <script src="../bootstrap-3.3.6-dist/js/jquery.js"></script>-->
-<script src="bootstrap-3.3.6-dist/libs/jquery-1.11.3.js"></script>
-    <!-- Custom Theme JavaScript -->
-    <script src="bootstrap-3.3.6-dist/js/freelancer.js"></script>
-
+    <!-- jQuery -->
+    <script src="../bootstrap-3.3.6-dist/libs/jquery-1.11.3.js"></script>
+    <script src="../bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
 </body>
 
 </html>
+<!-- Bootstrap
+         http://www.jose-aguilar.com/scripts/jquery/twitter-bootstrap/docs/components.html -->
+<!-- https://bootstrapbay.com/blog/working-bootstrap-contact-form/ -->
+
+<!-- Chart.js Grafica
+https://norfipc.com/codigos/como-crear-insertar-graficos-chart.js-paginas-web.php -->
