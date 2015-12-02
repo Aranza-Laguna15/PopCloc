@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -425,7 +424,8 @@
                                             <div class="panel panel-default">
                                                 <div class="panel-heading" role="tab" id="headingNine">
                                                     <h4 class="panel-title">
-                                     <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseNine" aria-expanded="true" aria-controls="collapseNine"> Lección 7: Parónimos</a> </h4>
+                                     <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseNine" aria-expanded="true" aria-controls="collapseNine"> 
+                                         Lección 7: Parónimos</a> </h4>
                                                 </div>
                                                 <div id="collapseNine" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingNine">
                                                     <div class="panel-body">
@@ -463,14 +463,14 @@
                                     </div>
                                     <div class="tab-pane" id="lD">
                                         <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-  <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingUno">
-      <h4 class="panel-title">
+                                    <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="headingUno">
+                                    <h4 class="panel-title">
         <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseUno" aria-expanded="true" aria-controls="collapseUno">
           Lección 9: Reglas de acentuación
         </a>
       </h4>
-    </div>
+                                    </div>
     <div id="collapseUno" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingUno">
       <div class="panel-body">
         <h3> Acentuación </h3>
