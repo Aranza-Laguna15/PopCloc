@@ -130,7 +130,11 @@
             </div>
         </div>
     </footer>
-
+<!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll visible-xs visible-sm">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
     <!-- Portfolio Modals -->
     <div class="portfolio-modal modal fade" id="ModalPerfil" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
