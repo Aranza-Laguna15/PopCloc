@@ -6,7 +6,7 @@
     $host = "tcp:b63ioz7h2m.database.windows.net,1433"; 
   //  $dbname = "databasepopcloc"; 
     
-$con= array("Database"=>"databasepopcloc","Uid"=>"$popclocdatabase","PWD"=>"l7MkorqZfMw9whohAWeuzQARfKCurakHiASJTv256GkltF2itbBspaqfohks");
+$con= array("Database"=>"databasepopcloc","Uid"=>"popcloc@b63ioz7h2m","PWD"=>"l7MkorqZfMw9whohAWeuzQARfKCurakHiASJTv256GkltF2itbBspaqfohks");
     try 
     { 
         $db = sqlsrv_connect($host,$con); 
