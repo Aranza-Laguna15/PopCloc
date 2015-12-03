@@ -1,14 +1,15 @@
 <?php 
 
  //los atributos de abajo son los que tenemos que modificar
-    $username = "$popclocdatabase"; 
-    $password = "l7MkorqZfMw9whohAWeuzQARfKCurakHiASJTv256GkltF2itbBspaqfohks"; 
+//$username = "$popclocdatabase"; 
+//    $password = "l7MkorqZfMw9whohAWeuzQARfKCurakHiASJTv256GkltF2itbBspaqfohks"; 
     $host = "tcp:b63ioz7h2m.database.windows.net,1433"; 
-    $dbname = "databasepopcloc"; 
-
+  //  $dbname = "databasepopcloc"; 
+    
+$con= array("Database"=>"databasepopcloc","Uid"=>"$popclocdatabase","PWD"=>"l7MkorqZfMw9whohAWeuzQARfKCurakHiASJTv256GkltF2itbBspaqfohks");
     try 
     { 
-        $db = new PDO("sqlsrv:Server=$host;Database=$dbname", $username, $password); 
+        $db = sqlsrv_connect($host,$con); 
     	
 } 
     catch(PDOException $ex) 
