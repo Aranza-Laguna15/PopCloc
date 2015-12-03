@@ -17,11 +17,6 @@
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
- <?php
-
-//carga y se conecta a la base de datos
-require("php/config.inc.php");
-?>
 </head>
 
 <body id="page-top" class="index">
@@ -48,6 +43,9 @@ require("php/config.inc.php");
                     
                     <li class="page-scroll">
 <?php
+
+//carga y se conecta a la base de datos
+require("php/config.inc.php");
 if (!empty($_POST)) {
     //obteneos los usuarios respecto a la usuario que llega por parametro
     $query = " 
