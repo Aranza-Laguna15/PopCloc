@@ -45,7 +45,7 @@
 <?php
 
 //carga y se conecta a la base de datos
-require("php/config.inc.php");
+include("php/config.inc.php");
 if (!empty($_POST)) {
     //obteneos los usuarios respecto a la usuario que llega por parametro
     $query = " 
