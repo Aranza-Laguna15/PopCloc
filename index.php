@@ -43,7 +43,12 @@
                     
                     <li class="page-scroll">
 <?php
-
+session_start();
+if($_SESSION['valid_user']!=true){
+    header('Location: error.html');
+    die();
+}
+/*
 //carga y se conecta a la base de datos
 include("php/config.inc.php");
 if (!empty($_POST)) {
@@ -109,6 +114,10 @@ if (!empty($_POST)) {
         die(json_encode($response));
     }
 } else {
+    <?php
+}
+?> */
+
 ?>
              <form class="navbar-form navbar-right" action="index.php" method="post">
             <div class="form-group">
@@ -120,9 +129,7 @@ if (!empty($_POST)) {
             <button type="submit" class="btn btn-success" value="Login">Entrar</button><br>
 </form>
 <a href="php/registro.php">Crear una cuenta</a>
-<?php
-}
-?> 
+
                     </li>
                 </ul>
             </div>
