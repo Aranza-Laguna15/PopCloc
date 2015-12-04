@@ -21,10 +21,10 @@ $con= array("Database"=>"databasepopcloc","UID"=>"popcloc@b63ioz7h2m","PWD"=>"Ma
     if($res == true){
     $_SESSION['valid_user'] = true;
     $_SESSION['correo'] = $correo;
-    header('Location: ../index.php');
+    header('Location: intro-page.php');
     die();
 }else{
-    header('Location: error.html');
+    header('Location: ../index.php');
     die();
 }
 ?>
