@@ -16,13 +16,13 @@ $con= array("Database"=>"databasepopcloc","UID"=>"popcloc@b63ioz7h2m","PWD"=>"Ma
      //$db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION); 
    // $db->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
      
-    $correo = $_REQUEST['correo'];
+    $correo = $_REQUEST['nombreusuario'];
     $contraseña = $_REQUEST['contraseña'];
-    $consulta = "SELECT * FROM usuarios WHERE correo = 'correo'  AND contraseña = 'contraseña'";
+    $consulta = "SELECT * FROM usuarios WHERE correo = 'nombreusuario'  AND contraseña = 'contraseña'";
     $res = sqlsrv_query($db , $consulta, array(), array( "Scrollable" => SQLSRV_CURSOR_KEYSET ));
     if($res == true){
     $_SESSION['valid_user'] = true;
-    $_SESSION['correo'] = $correo;
+    $_SESSION['nombreusuario'] = $correo;
     header('Location: intro-page.php');
     die();
 }else{
