@@ -127,10 +127,9 @@ if (!empty($_POST)) {
              <input type="password" placeholder="Contraseña" class="form-control" name="contraseña">
             </div>
             <button type="submit" class="btn btn-success" value="Login">Entrar</button><br>
-</form>
-<a href="php/registro.php">Crear una cuenta</a>
-
-                    </li>
+</form> </li>
+<li>
+<a href="php/registro.php">Crear una cuenta</a></li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
