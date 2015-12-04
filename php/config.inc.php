@@ -11,8 +11,8 @@ $db = new PDO("sqlsrv:server=$host,Database=$dbname", $username, $password);
  alert('Error al conectar la base de datos\n');
   die(print_r( sqlsrv_errors(), true));
  }
-     //$db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION); 
-   // $db->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
+     $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION); 
+     $db->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
      
     $correo = $_REQUEST['nombreusuario'];
     $contraseña = $_REQUEST['contraseña'];
