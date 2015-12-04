@@ -5,7 +5,7 @@ session_start();
 //    $password = "l7MkorqZfMw9whohAWeuzQARfKCurakHiASJTv256GkltF2itbBspaqfohks"; 
     $host = "tcp:b63ioz7h2m.database.windows.net,1433"; 
   //  $dbname = "databasepopcloc"; 
-$con= array("Database"=>"databasepopcloc","UID"=>"popclocdatabase\$popclocdatabase","PWD"=>"l7MkorqZfMw9whohAWeuzQARfKCurakHiASJTv256GkltF2itbBspaqfohks");
+$con= array("Database"=>"databasepopcloc","UID"=>"popcloc@b63ioz7h2m","PWD"=>"Manuel_$%&amp");
  $db = sqlsrv_connect($host,$con);
  if($db){
   alert('Conexión establecida');
