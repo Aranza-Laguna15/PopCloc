@@ -119,7 +119,7 @@ if (!empty($_POST)) {
 ?> */
 
 ?>
-             <form class="navbar-form navbar-right" action="index.php" method="post">
+             <form class="navbar-form navbar-right" action="php/config.inc.php" method="post">
             <div class="form-group">
             <input type="text" placeholder="Correo" class="form-control" name="correo">
             </div>
