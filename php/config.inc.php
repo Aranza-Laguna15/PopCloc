@@ -1,16 +1,14 @@
 <?php 
 session_start();
- //los atributos de abajo son los que tenemos que modificar
-//$username = "$popclocdatabase"; 
-//    $password = "l7MkorqZfMw9whohAWeuzQARfKCurakHiASJTv256GkltF2itbBspaqfohks"; 
-    $host = "b63ioz7h2m.database.windows.net,1433"; 
-  //  $dbname = "databasepopcloc"; 
-$con= array("Database"=>"databasepopcloc","UID"=>"popcloc@b63ioz7h2m","PWD"=>"Manuel_$%&");
- $db = sqlsrv_connect($host,$con);
+$username = "popcloc@b63ioz7h2m"; 
+    $password = "Manuel_$%&"; 
+    $host = "tcp:b63ioz7h2m.database.windows.net,1433"; 
+    $dbname = "databasepopcloc"; 
+$db = new PDO("sqlsrv:server=$host,Database=$dbname", $username, $password); 
  if($db){
   alert('Conexión establecida');
  }else{
-  echo "Error al conectar la base de datos\n";
+ alert('Error al conectar la base de datos\n');
   die(print_r( sqlsrv_errors(), true));
  }
      //$db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION); 
