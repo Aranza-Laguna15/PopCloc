@@ -44,8 +44,8 @@
                     <li class="page-scroll">
 <?php
 session_start();
-if($_SESSION['valid_user']!=true){
-    header('Location: error.html');
+if($_SESSION['valid_user']!=false){
+    header('Location: php/intro-page.html');
     die();
 }
 /*
