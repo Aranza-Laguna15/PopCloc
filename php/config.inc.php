@@ -3,9 +3,9 @@ session_start();
  //los atributos de abajo son los que tenemos que modificar
 //$username = "$popclocdatabase"; 
 //    $password = "l7MkorqZfMw9whohAWeuzQARfKCurakHiASJTv256GkltF2itbBspaqfohks"; 
-    $host = "tcp:b63ioz7h2m.database.windows.net,1433"; 
+    $host = "b63ioz7h2m.database.windows.net,1433"; 
   //  $dbname = "databasepopcloc"; 
-$con= array("Database"=>"databasepopcloc","UID"=>"popcloc@b63ioz7h2m","PWD"=>"Manuel_$%&amp");
+$con= array("Database"=>"databasepopcloc","UID"=>"popcloc@b63ioz7h2m","PWD"=>"Manuel_$%&");
  $db = sqlsrv_connect($host,$con);
  if($db){
   alert('Conexión establecida');
