@@ -121,7 +121,7 @@ if (!empty($_POST)) {
 ?>
              <form class="navbar-form navbar-right" action="php/config.inc.php" method="post">
             <div class="form-group">
-            <input type="text" placeholder="Usuario" class="form-control" name="usuario">
+            <input type="text" placeholder="Usuario" class="form-control" name="nombreusuario">
             </div>
             <div class="form-group">
              <input type="password" placeholder="Contraseña" class="form-control" name="contraseña">
