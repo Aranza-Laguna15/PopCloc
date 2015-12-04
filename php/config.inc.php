@@ -7,12 +7,14 @@ session_start();
   //  $dbname = "databasepopcloc"; 
 $con= array("Database"=>"databasepopcloc","UID"=>"popcloc@b63ioz7h2m","PWD"=>"Manuel_$%&amp");
  $db = sqlsrv_connect($host,$con);
- if($db == true){
+ if($db){
+  alert('Conexión establecida');
+ }else{
   echo "Error al conectar la base de datos\n";
   die(print_r( sqlsrv_errors(), true));
  }
-     $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION); 
-    $db->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
+     //$db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION); 
+   // $db->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
      
     $correo = $_REQUEST['correo'];
     $contraseña = $_REQUEST['contraseña'];
