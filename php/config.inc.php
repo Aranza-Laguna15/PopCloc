@@ -1,8 +1,8 @@
 <?php 
 session_start();
-$username = 'popcloc@b63ioz7h2m'; 
-    $password = 'Manuel_$%&'; 
-    $host = "tcp:b63ioz7h2m.database.windows.net,1433"; 
+ $username = "popcloc@*******"; 
+    $password = "*******"; 
+    $host = "********.database.windows.net,****"; "; 
     $dbname = 'databasepopcloc'; 
     $connectinfo = array("Database"=>$dbname, "UID"=>$username, "PWD"=>$password, "MultipleActiveResultSets"=>true);
     sqlsrv_configure('WarningsReturnAsErrors',0);
